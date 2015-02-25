@@ -30,7 +30,10 @@ Go to [http://localhost:8000/x-qrcode/demo.html](http://localhost:8000/x-qrcode/
 ## Usage
 
 ```
-<x-qrcode data="Hello, I'm a custom Polymer element to create QR Code." w="200" h="200"></x-qrcode>
+<x-qrcode
+    data="Hello, I'm a custom Polymer element to create QR Code."
+    w="200"
+    h="200"></x-qrcode>
 ```
 
 ## Note
