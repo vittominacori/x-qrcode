@@ -1,0 +1,20 @@
+{
+  "name": "x-qrcode",
+  "version": "0.0.1",
+  "authors": [
+    "Vittorio Minacori <vittoriominacori@gmail.com>"
+  ],
+  "description": "Custom Polymer element to create QR Code.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "qrcode"
+  ],
+  "main": "x-qrcode.html",
+  "license": "MIT",
+  "homepage": "https://github.com/vittominacori/x-qrcode/",
+  "dependencies": {
+    "polymer": "Polymer/polymer#latest"
+  }
+}

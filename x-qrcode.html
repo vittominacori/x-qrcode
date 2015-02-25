@@ -1,0 +1,31 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Custom Polymer element to create QR Code.
+
+##### Example
+
+    <x-qrcode data="Hello, I'm a custom Polymer element to create QR Code." w="200" h="200"></x-qrcode>
+
+@element x-qrcode
+@blurb Custom Polymer element to create QR Code.
+@status alpha
+@homepage https://github.com/vittominacori/x-qrcode/
+-->
+<polymer-element name="x-qrcode" attributes="data w h">
+
+    <template>
+        <img src="https://chart.googleapis.com/chart?cht=qr&amp;chs={{w}}x{{h}}&amp;chl={{data}}" alt="QR code">
+    </template>
+
+    <script>
+
+        Polymer('x-qrcode', {
+            w: 200,
+            h: 200,
+            data: 'Documentation on https://github.com/vittominacori/x-qrcode'
+        });
+
+    </script>
+
+</polymer-element>
